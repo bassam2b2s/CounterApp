@@ -1,0 +1,56 @@
+body{
+    background-image: url("station.jpg");
+    background-repeat:no-repeat ;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-size: cover;
+    text-align: center;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+background: darkred;
+}
+
+#increment-btn:active{
+    font-size: 1rem;
+}
+
+#decrement-btn{
+   background: darkgreen; 
+}
+
+#decrement-btn:active{
+    font-size: 1rem;
+}
+
+#save{
+    background: darkblue;
+}
+
+#save:active{
+    font-size: 1rem;
+}
+
+.contanier{
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 80%;
+    border: 5px solid white;
+    
+}
+
+.contanier .side{
+border: 3px solid white;
+}
+
